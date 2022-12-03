@@ -344,7 +344,7 @@ class SettingsManager {
       case 'domain':
         $defaults = [
           'installed' => FALSE,
-          'enable_components' => ['CiviEvent', 'CiviContribute', 'CiviMember', 'CiviMail', 'CiviReport', 'CiviPledge'],
+          'enable_components' => ['CiviEvent', 'CiviContribute', 'CiviMember', 'CiviMail', 'CiviReport', 'CiviPledge', 'CiviProperty'],
           'customFileUploadDir' => '[civicrm.files]/custom/',
           'imageUploadDir' => '[civicrm.files]/persist/contribute/',
           'uploadDir' => '[civicrm.files]/upload/',

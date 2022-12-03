@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2022-11-30 13:21:46
+<?php /* Smarty version 2.6.31, created on 2022-12-02 13:19:44
          compiled from CRM/common/l10n.js.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'crmScope', 'CRM/common/l10n.js.tpl', 1, false),array('block', 'ts', 'CRM/common/l10n.js.tpl', 36, false),array('modifier', 'crmDate', 'CRM/common/l10n.js.tpl', 10, false),array('modifier', 'json_encode', 'CRM/common/l10n.js.tpl', 14, false),array('function', 'crmResURL', 'CRM/common/l10n.js.tpl', 18, false),array('function', 'crmURL', 'CRM/common/l10n.js.tpl', 32, false),)), $this); ?>

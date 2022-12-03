@@ -650,7 +650,7 @@ LEFT JOIN  civicrm_email ce ON ( ce.contact_id=c.id AND ce.is_primary = 1 )
   public static function contactDetails($componentIds, $componentName, $returnProperties = []) {
     $contactDetails = [];
     if (empty($componentIds) ||
-      !in_array($componentName, ['CiviContribute', 'CiviMember', 'CiviEvent', 'Activity', 'CiviCase'])
+      !in_array($componentName, ['CiviContribute', 'CiviMember', 'CiviEvent', 'Activity', 'CiviCase', 'CiviProperty'])
     ) {
       return $contactDetails;
     }
@@ -677,6 +677,9 @@ LEFT JOIN  civicrm_email ce ON ( ce.contact_id=c.id AND ce.is_primary = 1 )
     }
     elseif ($componentName == 'CiviCase') {
       $compTable = 'civicrm_case';
+    }
+    elseif ($componentName == 'CiviProperty') {
+      $compTable = 'civicrm_property';
     }
     else {
       $compTable = 'civicrm_participant';

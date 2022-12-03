@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.31, created on 2022-11-30 13:22:03
+<?php /* Smarty version 2.6.31, created on 2022-12-02 13:19:51
          compiled from CRM/common/accesskeys.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'crmScope', 'CRM/common/accesskeys.tpl', 1, false),array('block', 'ts', 'CRM/common/accesskeys.tpl', 12, false),array('function', 'help', 'CRM/common/accesskeys.tpl', 14, false),)), $this); ?>

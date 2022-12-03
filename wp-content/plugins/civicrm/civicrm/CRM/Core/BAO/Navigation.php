@@ -649,6 +649,7 @@ FROM civicrm_navigation WHERE domain_id = $domainID";
       'CiviGrant' => 'Grant Reports',
       'CiviMail' => 'Mailing Reports',
       'CiviCampaign' => 'Campaign Reports',
+      'CiviProperty' => 'Property Reports'
     ];
 
     // Create or update the top level Reports link.

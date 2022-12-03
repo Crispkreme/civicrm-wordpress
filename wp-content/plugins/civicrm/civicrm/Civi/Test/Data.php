@@ -57,6 +57,7 @@ class Data {
       'CiviMail',
       'CiviReport',
       'CiviPledge',
+      'CiviProperty',
     ]);
 
     return TRUE;
